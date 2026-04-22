@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomDSA{
     public static void main(String[] args) {
 
-        int[] arr = {1, 189, 268, 1920, 1929, 1480, 1672, 1470, 1431, 1512};
+        int[] arr = {1, 189, 268, 1920, 1929, 1480, 1672, 1470, 1431, 1512, 1295};
 
 
         //**Generating 2 Random LeetCode Problem.
