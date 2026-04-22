@@ -21,5 +21,7 @@ public class CountingDigits {
        int digits =(int)Math.log10(num) + 1;
 
        System.out.println("Digits: " + digits);
+       
+       sc.close();
    }
 }
