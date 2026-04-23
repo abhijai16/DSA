@@ -1,19 +1,19 @@
 import java.util.Random;
 
-//**  I have created this program for randomly generating LeetCode problems which i can practice daily.
+//*  I have created this program for randomly generating LeetCode problems which i can practice daily.
 
 public class RandomDSA{
     public static void main(String[] args) {
 
-        // int[] arr = {1, 189, 268, 1920, 1929, 1480, 1672, 1470, 1431, 1512, 1295, 1365, 41, 75, 832, 744, 34, 852};
+        // int[] arr = {1, 189, 268, 1920, 1929, 1480, 1672, 1470, 1431, 1512, 1295, 1365, 41, 75, 832, 744, 34, 852, 162, 1095, 33};
 
         int[] easy = {1, 268, 1480, 1672, 1470, 1431, 1512, 1295, 1365, 832, 1920, 1929, 744};
-        int[] medium = {75, 189, 41, 34, 852};
-        // int[] hard = {41};
+        int[] medium = {75, 189, 41, 34, 852, 162, 33};
+        // int[] hard = {41, 1095};
 
-        //* 18 Questions.
+        //* 21 Questions.
 
-        //**Generating 3 Random LeetCode Problem.
+        //* Generating 3 Random LeetCode Problem.
 
         System.out.println("Question 1: " + getRandom(easy));
         System.out.println("Question 2: " + getRandom(easy));
