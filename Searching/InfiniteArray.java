@@ -5,6 +5,7 @@ public class InfiniteArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 10, 14, 15, 19, 20, 51, 86, 110, 213, 389, 512, 759, 1000, 1221, 1222, 1800, 2222, 2500, 2897, 3000, 3223, 3598, 4230};
         //* We can't use arr.length
+        
         int target = 86;
 
         int index = range(arr, target);

@@ -5,13 +5,11 @@ import java.util.Random;
 public class RandomDSA{
     public static void main(String[] args) {
 
-        // int[] arr = {1, 189, 268, 1920, 1929, 1480, 1672, 1470, 1431, 1512, 1295, 1365, 41, 75, 832, 744, 34, 852, 162, 1095, 33};
+        int[] easy = {1, 268, 1480, 1672, 1470, 1431, 1512, 1295, 1365, 832, 1920, 1929, 744, 704};
+        int[] medium = {75, 189, 41, 34, 852, 162, 33, 1011, 2226};
+        // int[] hard = {41, 1095, 410};
 
-        int[] easy = {1, 268, 1480, 1672, 1470, 1431, 1512, 1295, 1365, 832, 1920, 1929, 744};
-        int[] medium = {75, 189, 41, 34, 852, 162, 33};
-        // int[] hard = {41, 1095};
-
-        //* 21 Questions.
+        //* 25 Questions.
 
         //* Generating 3 Random LeetCode Problem.
 
