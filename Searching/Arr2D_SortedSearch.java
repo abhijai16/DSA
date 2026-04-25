@@ -19,7 +19,7 @@ public class Arr2D_SortedSearch {
 
     public static int[] binarySearch(int[][] matrix, int target) {
 
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0)  //Edge Check
             return new int[]{-1, -1};
 
         int m = matrix.length;
