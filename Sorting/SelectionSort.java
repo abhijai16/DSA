@@ -10,7 +10,9 @@ public class SelectionSort {
 
         System.out.println("Ascending(a) or Descending(d): ");
         String type = sc.next();
+
         selectionSort(arr, type);
+        
         System.out.println(Arrays.toString(arr));
         sc.close();
     }
