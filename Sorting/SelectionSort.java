@@ -12,6 +12,7 @@ public class SelectionSort {
         String type = sc.next();
         selectionSort(arr, type);
         System.out.println(Arrays.toString(arr));
+        sc.close();
     }
 
     public static void selectionSort(int[] arr, String type){

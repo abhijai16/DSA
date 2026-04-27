@@ -12,6 +12,7 @@ public class BubbleSort {
         String type = sc.next();
         bubbleSort(arr, type);
         System.out.println(Arrays.toString(arr));
+        sc.close();
     }
 
     public static void  bubbleSort(int[] arr, String type){

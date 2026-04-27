@@ -12,6 +12,7 @@ public class CeilingOfNumber{
 
         System.out.print("Enter the target: ");
         int target = sc.nextInt();
+        sc.close();
 
         int start = 0, end = arr.length-1;
         boolean found = false;
@@ -38,6 +39,5 @@ public class CeilingOfNumber{
         if(!found){
             System.out.println(arr[start]);
         }
-
     }
 }
