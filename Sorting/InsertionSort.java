@@ -1,7 +1,7 @@
 package Sorting;
 import java.util.*;
 
-//* Insertion Sort Time Complexity is O(n^2)  */
+//* Insertion Sort Time Complexity is O(n^2) and is stable Sorting Algorithm. */
 
 public class InsertionSort {
    public static void main(String[] args) {
