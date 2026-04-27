@@ -1,7 +1,7 @@
 package Sorting;
 import java.util.*;
 
-//* Only be used when the array is given with elements 1 to n. */
+//* Only be used when the array is given with elements 1 to n or 0 to n. */
 //* It's Time Complexity is O(n). */
 //* Important - As many companies ask questions from this sorting pattern. */
 
