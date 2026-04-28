@@ -18,32 +18,23 @@ public class InsertionSort {
     }
 
     public static void insertionSort(int[] arr, String type){
-        for(int i=0; i<arr.length-1; i++){
-            for(int j=i+1; j>0; j--){
-                if(type.equals("a")){
-                    if(arr[j]<arr[j-1]){
-                        swap(arr, j, j-1);
-                    }
-                    else{
-                        break;
-                    }
-                }
-                else if(type.equals("d")){
-                    if(arr[j]>arr[j-1]){
-                        swap(arr, j, j-1);
-                    }
-                    else{
-                        break;
-                    }
+        for(int i=1; i<arr.length; i++){
+            int key = arr[i];
+            int j = i-1;
+
+            if(type.equals("a")){
+                while(j>=0 && arr[j]>key){
+                    arr[j+1]=arr[j];
+                    j--;
                 }
             }
+            else if(type.equals("d")){
+                while(j>=0 && arr[j]<key){
+                    arr[j+1]=arr[j];
+                    j--;
+                }
+            }
+            arr[j+1]=key;
         }
     }
-
-    public static void swap(int[] arr, int i, int j){
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
-
 }
