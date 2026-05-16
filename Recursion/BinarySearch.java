@@ -10,6 +10,7 @@ public class BinarySearch {
         int target = sc.nextInt();
 
         System.out.println(binarySearch(arr, target, 0, arr.length-1));
+        sc.close();
 
     }
 
