@@ -37,7 +37,6 @@ public class InPlaceMergeSort {
                 left++;
             }
             else{
-
                 int value = arr[right];
                 int index = right;
 
