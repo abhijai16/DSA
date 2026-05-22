@@ -2,6 +2,8 @@ package Sorting;
 
 import java.util.Arrays;
 
+//* Merge Sort have Time Complexity of O(N logN). */
+
 public class MergeSortRec {
     public static void main(String[] args) {
         int[] arr = {8, 3, 10, 12, 1, 5, 6};
