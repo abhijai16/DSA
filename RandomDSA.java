@@ -6,10 +6,10 @@ public class RandomDSA{
     public static void main(String[] args) {
 
         int[] easy = {1, 268, 1480, 1672, 1470, 1431, 1512, 1295, 1365, 832, 1920, 1929, 744, 704, 867, 448, 645, 136, 191, 1342, 3658};
-        int[] medium = {75, 189, 34, 852, 162, 33, 1011, 2226, 287, 442, 238};
+        int[] medium = {75, 189, 34, 852, 162, 33, 1011, 2226, 287, 442, 238, 17};
         // int[] hard = {41, 1095, 410, 1250};
 
-        //* 36 Questions.
+        //* 37 Questions.
 
         //* Generating 3 Random LeetCode Problem.
 
@@ -23,5 +23,5 @@ public class RandomDSA{
         int index = rand.nextInt(arr.length);
         return arr[index];
     }
-
+    
 }
