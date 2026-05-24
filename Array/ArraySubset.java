@@ -7,7 +7,7 @@ import java.util.List;
 
 public class ArraySubset{
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3};f
+        int[] arr = {1, 2, 3};
 
         List<List<Integer>> list = subset(arr);
         System.out.println(list);
