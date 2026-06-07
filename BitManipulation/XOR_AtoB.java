@@ -1,4 +1,4 @@
-package Math;
+package BitManipulation;
 
 // XOR from range a to b is equal to  =>   (XOR from 0 to b)^(XOR from 0 to a-1)
 

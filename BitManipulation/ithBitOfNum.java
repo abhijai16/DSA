@@ -1,4 +1,4 @@
-package Math;
+package BitManipulation;
 
 //* Find the ith bit of a number. */
 

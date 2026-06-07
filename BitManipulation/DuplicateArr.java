@@ -1,4 +1,4 @@
-package Math;
+package BitManipulation;
 
 //* An array contain all the elements twice except one element, find the element. */
 
