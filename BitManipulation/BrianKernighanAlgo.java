@@ -6,6 +6,8 @@ public class BrianKernighanAlgo {
     public static void main(String[] args) {
         int n = 7;
         System.out.println(countSetBits(n));
+
+        System.out.println(trick(n));
     }
 
     public static int countSetBits(int n) {
@@ -15,6 +17,11 @@ public class BrianKernighanAlgo {
             count++;
         }
         return count;
+    }
+
+    //! Integer Built in function.
+    public static int trick(int n){
+        return Integer.bitCount(n);
     }
 
 }
