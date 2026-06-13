@@ -1,6 +1,7 @@
 package LinkedList;
 
 //* This technique is called as fast and slow pointer. */
+//! Also known as Tortoise and Hare Algorithm.
 
 public class MiddleLinkedList {
     public static void main(String[] args) {
