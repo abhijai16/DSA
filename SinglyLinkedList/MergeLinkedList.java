@@ -1,4 +1,4 @@
-package LinkedList;
+package SinglyLinkedList;
 
 public class MergeLinkedList {
     public static void main(String[] args) {

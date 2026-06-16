@@ -1,4 +1,4 @@
-package LinkedList;
+package SinglyLinkedList;
 
 class ListNode {
     int val;
@@ -23,7 +23,7 @@ public class Basic {
         node3.next = node4;
 
         printList(head);
-        
+
         int len = length(head);
         System.out.println(len);
     }
