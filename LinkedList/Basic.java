@@ -1,4 +1,4 @@
-package SinglyLinkedList;
+package LinkedList;
 
 class ListNode {
     int val;

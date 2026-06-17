@@ -1,4 +1,4 @@
-package SinglyLinkedList;
+package LinkedList;
 
 public class ReversedLinkList {
     public static void main(String[] args) {

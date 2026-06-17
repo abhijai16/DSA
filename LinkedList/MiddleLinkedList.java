@@ -1,4 +1,4 @@
-package SinglyLinkedList;
+package LinkedList;
 
 //* This technique is called as fast and slow pointer. */
 //! Also known as Tortoise and Hare Algorithm.
