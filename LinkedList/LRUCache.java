@@ -3,8 +3,8 @@ import java.util.HashMap;
 
 class LRUCache {
     private int capacity;
-    private HashMap<Integer, DNode> map;    
-    private DoublyLinkedList dll;         
+    private HashMap<Integer, DNode> map;
+    private DoublyLinkedList dll;
     
     public LRUCache(int capacity) {
         this.capacity = capacity;
@@ -15,10 +15,10 @@ class LRUCache {
     public int get(int key) {
         if(!map.containsKey(key)){
             return -1;
-        }   
+        }
         DNode node = map.get(key);
         dll.moveToTail(node);
-        return node.val; 
+        return node.val;
     }
     
     public void put(int key, int value) {
@@ -44,8 +44,8 @@ class LRUCache {
     public int peek(int key) {
         if(!map.containsKey(key)){
             return -1;
-        }   
+        }
         DNode node = map.get(key);
-        return node.val; 
+        return node.val;
     }
 }
