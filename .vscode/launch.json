@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Tree.Main",
+      "projectName": "DSA_aed80415"
+    },
+    {
+      "type": "java",
+      "name": "SetBitOddOrEven",
+      "request": "launch",
+      "mainClass": "BitManipulation.SetBitOddOrEven",
+      "projectName": "DSA_aed80415"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
